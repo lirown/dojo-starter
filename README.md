@@ -9,7 +9,7 @@
 
 This project helps you to build Progressive Web Applications following the modern web standards, best practices and providing you with tools for that purpose. Out of the box, provides you with the following features:
 
-- Simple way to create Web Components with [LitElement](https://lit-element.polymer-project.org).
+- Simple way to create Web Components with [lit](https://lit.dev).
 - Small and powerful client-side router for Web Components with [Vaadin Router](https://vaadin.com/router).
 - All the benefits from a PWA (manifest, service worker, offline UI) thanks to [Workbox](https://developers.google.com/web/tools/workbox) and [pwa-helpers](https://github.com/thepassle/pwa-helpers).
 - SEO friendly thanks to the `PageElement` custom element and the `html-meta-manager`.
@@ -95,7 +95,7 @@ Note: If you need to add static files to the build, like the `images` folder or 
 1. Create the new page component (extending from `PageElement` helper) in the `pages` folder. For example a `page-explore.js`.
 
    ```javascript
-   import { html, customElement } from 'lit-element';
+   import { html } from 'lit';
 
    import { PageElement } from '../helpers/page-element';
 

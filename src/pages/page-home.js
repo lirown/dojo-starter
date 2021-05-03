@@ -1,12 +1,11 @@
-import { html } from 'lit-element';
+import { html } from 'lit';
 import { Logo, Feature } from '../components';
 import { urlForName } from '../router';
 import { PageElement } from '../helpers/page-element';
 
 export class PageHome extends PageElement {
   render() {
-    return html`
-      <section class="main-hero">
+    return html` <section class="main-hero">
         <div class="container">
           <div class="hero-inner">
             <h1>
