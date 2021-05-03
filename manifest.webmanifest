@@ -3,6 +3,7 @@
   "short_name": "Dojo",
   "description": "Improve your craftsmanship as a Software Engineer",
   "start_url": "/?utm_source=web_app_manifest",
+  "scope": "/dojo-starter/",
   "display": "standalone",
   "theme_color": "#000000",
   "background_color": "#ffffff",

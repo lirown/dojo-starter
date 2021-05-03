@@ -3,7 +3,7 @@
 [![CI](https://github.com/lirown/dojo-starter/workflows/CI/badge.svg)](https://github.com/lirown/dojo-starter/actions)
 [![Built with dojo-starter](https://img.shields.io/badge/built%20with-pwa--forter--template-blue)](https://github.com/lirown/dojo-starter 'Built with pwa-dojo-starter-template')
 
-# Dojp Engineering
+# Dojo Starter (PWA + lit-html)
 
 ##### [Getting started](#getting-started) | [Build for production](#build-for-production) | [Create a new page](#create-a-new-page) | [Environment configuration](#environment-configuration) | [Browser support](#browser-support)
 
