@@ -108,7 +108,7 @@ Note: If you need to add static files to the build, like the `images` folder or 
      }
    }
 
-   customElements.defile('page-explore', PageExplore);
+   customElements.define('page-explore', PageExplore);
    ```
 
 2. Register the new route in the `routes.js`:
